@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kelly's Portfolio</title>
+<meta name="description" content="Portfolio of Kelly Natalia, Data Science student at BINUS University. AI trainer, full-stack developer and deep learning researcher.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="bar">
+    <a class="brand" href="#/home">Kelly's Portfolio</a>
+    <div class="nav-right">
+      <nav class="menu" id="menu" aria-label="Pages">
+        <a href="#/home" data-page="home">Home</a>
+        <a href="#/experiences" data-page="experiences">Experiences</a>
+        <a href="#/projects" data-page="projects">Projects</a>
+        <a href="#/certificates-skills" data-page="certificates-skills">Certificates &amp; Skills</a>
+      </nav>
+      <button class="icon-btn theme-btn" id="themeBtn" type="button" aria-label="Switch to dark mode">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<div id="page-home" data-title="Kelly's Portfolio | Home">
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="media r-photo" data-label="Add your photo: images/profile.jpg">
+          <img src="images/profile.jpg" alt="Photo of Kelly Natalia" onerror="this.style.display='none'">
+        </div>
+          <div class="hero-text">
+          <h1>Kelly Natalia</h1>
+          <p>I am an undergraduate Data Science student at BINUS University with a strong passion for data and a constant drive to learn. I enjoy exploring how data and machine learning can solve real-world problems and turn complex numbers into meaningful insights.</p>
+          <p>Beyond the classroom, I am always eager to gain hands-on experience, whether through researching deep learning models, training AI, or building applications at the BINUS IT Division.</p>
+          <p>This is a collection of my projects and journey, ranging from data modeling to full-stack systems. Every project reflects my commitment to continuous learning and building practical, data-driven solutions.</p>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a class="btn" href="Kelly-Natalia-CV.pdf" target="_blank" rel="noopener">View my CV</a>
+        <a class="btn" href="#/certificates-skills">Certificates &amp; Skills</a>
+      </div>
+      <hr class="hero-rule">
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <h2 class="sec-title">Experiences</h2>
+        <div class="cards">
+        <a class="card" href="#/experiences/exp-binus">
+          <div class="media contain r-4x3" data-label="images/logo-binusit.png">
+            <img src="images/logo-binusit.png" alt="BINUS logo" onerror="this.style.display='none'">
+          </div>
+          <h3>Full Stack Programmer</h3>
+          <p class="sub">BINUS IT Division | Mar 2026 - Present</p>
+          <span class="go">View details &rarr;</span>
+        </a>
+               <a class="card" href="#/experiences/exp-dataannotation">
+          <div class="media contain r-4x3" data-label="images/logo-data-annotation.png">
+            <img src="images/logo-data-annotation.png" alt="Data annotation platform logo" onerror="this.style.display='none'">
+          </div>
+          <h3>Data Annotation</h3>
+          <p class="sub">May 2025 - Present</p>
+          <span class="go">View details &rarr;</span>
+        </a>
+        <a class="card" href="#/experiences/exp-dsc">
+          <div class="media contain r-4x3" data-label="images/logo-dsc.png">
+            <img src="images/logo-dsc.png" alt="Data Science Club logo" onerror="this.style.display='none'">
+          </div>
+          <h3>Research Division</h3>
+          <p class="sub">Data Science Club, BINUS | Mar 2025 - Present</p>
+          <span class="go">View details &rarr;</span>
+        </a>
+      </div>
+      <a class="more-link" href="#/experiences">View more experiences in detail</a>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <h2 class="sec-title">Education</h2>
+      <div class="row" style="border-top:0; padding-top:0">
+        <div class="media contain r-1x1" data-label="images/logo-binus.png">
+          <img src="images/logo-binus.png" alt="BINUS logo" onerror="this.style.display='none'">
+        </div>
+        <div class="edu">
+          <h3>Bina Nusantara University (BINUS)</h3>
+          <p>School of Computer Science | Bachelor's Degree in Data Science (ongoing)</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="media contain r-1x1" data-label="images/logo-penabur.png">
+          <img src="images/logo-penabur.png" alt="SMAK 2 BPK Penabur logo" onerror="this.style.display='none'">
+        </div>
+        <div class="edu">
+          <h3>SMAK 2 BPK Penabur Jakarta</h3>
+          <p>Jul 2021 - Jun 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <h2 class="sec-title">Projects</h2>
+            <div class="cards">
+        <a class="card" href="#/projects/proj-creditmlops">
+          <div class="media r-4x3" data-label="images/project-credit-mlops.jpg">
+            <img src="images/project-credit-mlops.jpg" alt="Credit score prediction MLOps" onerror="this.style.display='none'">
+          </div>
+          <h3>Credit Score Prediction (MLOps)</h3>
+          <span class="go">View details &rarr;</span>
+        </a>
+        <a class="card" href="#/projects/proj-ispu">
+          <div class="media r-4x3" data-label="images/project-ispu-jakarta.png">
+            <img src="images/project-ispu-jakarta.png" alt="Jakarta ISPU forecasting" onerror="this.style.display='none'">
+          </div>
+          <h3>Jakarta Air Quality (ISPU) Forecasting</h3>
+          <span class="go">View details &rarr;</span>
+        </a>
+        <a class="card" href="#/projects/proj-cervical">
+          <div class="media r-4x3" data-label="images/project-cervical-cancer.jpg">
+            <img src="images/project-cervical-cancer.jpg" alt="Cervical cancer cell classification research" onerror="this.style.display='none'">
+          </div>
+          <h3>Cervical Cancer Cell Classification (ICORIS 2025)</h3>
+          <span class="go">View details &rarr;</span>
+        </a>
+      </div>
+      <a class="more-link" href="#/projects">View more projects in detail</a>
+    </div>
+  </section>
+
+</div>
+
+<div id="page-experiences" data-title="Kelly's Portfolio | Experiences" hidden>
+
+  <div class="page-head">
+    <div class="wrap">
+      <h1>Experiences</h1>
+      <p>Where I've worked and contributed, from data annotation and quality review to research and full-stack development, building hands-on experience with how data is handled, cleaned, and turned into results.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+
+      <h2 class="subhead" style="margin-top:32px">Work Experience</h2>
+
+        <article class="row" id="exp-binus" style="margin-top:24px">
+      <div class="media contain r-1x1" data-label="Logo">
+        <img src="images/logo-binusit.png" alt="BINUS logo" onerror="this.style.display='none'">
+      </div>
+      <div>
+        <h2>Associate Member Programmer</h2>
+        <p class="org">Bina Nusantara IT Division</p>
+        <p class="date">Mar 2026 - Present &middot; Jakarta, Indonesia</p>
+        <ul class="bullets">
+          <li>Develop and maintain features for internal BINUS systems using C# and ASP.NET.</li>
+          <li>Work with the development team to build, test, and troubleshoot application functionality.</li>
+          <li>Support ongoing improvements to existing web applications based on technical specifications.</li>
+        </ul>
+        <div class="chip-row"><span>C#</span><span>ASP.NET</span></div>
+      </div>
+    </article>
+
+    <article class="row" id="exp-dataannotation">
+      <div class="media contain r-1x1" data-label="Logo">
+        <img src="images/logo-data-annotation.png" alt="Data annotation platform logo" onerror="this.style.display='none'">
+      </div>
+      <div>
+        <h2>Data Annotation &amp; AI Training</h2>
+        <p class="org">New York, USA (Remote)</p>
+        <p class="date">May 2025 - Present</p>
+        <ul class="bullets">
+          <li>Annotate and label data used to train and evaluate AI models, following detailed project guidelines and quality standards.</li>
+          <li>Review and validate AI-generated outputs, giving structured feedback to help improve model accuracy and reliability.</li>
+          <li>Work across different data types and project guidelines while maintaining consistency and attention to detail.</li>
+        </ul>
+        <div class="chip-row"><span>Data Annotation</span><span>AI Training</span><span>Quality Review</span></div>
+      </div>
+    </article>
+
+    <article class="row" id="exp-appen">
+      <div class="media contain r-1x1" data-label="Logo">
+        <img src="images/logo-appen.png" alt="Appen logo" onerror="this.style.display='none'">
+      </div>
+      <div>
+        <h2>AI Content Reviewer</h2>
+        <p class="org">Appen, Sydney, Australia (Remote)</p>
+        <p class="date">Jan 2025 - Mar 2026</p>
+        <ul class="bullets">
+          <li>Evaluated audio, video, and computer vision data, including object detection and speaker alignment, for AI model quality control.</li>
+          <li>Reported data errors and inconsistencies according to project guidelines.</li>
+        </ul>
+        <div class="chip-row"><span>Computer Vision</span><span>Quality Control</span></div>
+      </div>
+    </article>
+
+    <article class="row" id="exp-projectco">
+      <div class="media contain r-1x1" data-label="Logo">
+        <img src="images/logo-projectco.png" alt="Project.co.id logo" onerror="this.style.display='none'">
+      </div>
+      <div>
+        <h2>Data Quality Analyst</h2>
+        <p class="org">Project.co.id, Bandung (Remote)</p>
+        <p class="date">Jun 2025 - Nov 2025</p>
+        <ul class="bullets">
+          <li>Cleaned and verified large datasets in Excel and Google Sheets, keeping formats consistent with provided templates.</li>
+          <li>Researched product and vendor information to validate data.</li>
+        </ul>
+        <div class="chip-row"><span>Excel</span><span>Google Sheets</span><span>Data Cleaning</span></div>
+      </div>
+    </article>
+
+    <h2 class="subhead">Organizational Experiences</h2>
+
+    <article class="row" id="exp-dsc" style="margin-top:24px">
+      <div class="media contain r-1x1" data-label="Logo">
+        <img src="images/logo-dsc.png" alt="Data Science Club logo" onerror="this.style.display='none'">
+      </div>
+      <div>
+        <h2>Education &amp; Development Activist</h2>
+        <p class="org">Data Science Club (DSC), BINUS University &middot; Apprenticeship</p>
+        <p class="date">Mar 2025 - Present &middot; Jakarta, Indonesia (On-site)</p>
+        <ul class="bullets">
+          <li>Co-authored and presented a research paper at ICORIS 2025.</li>
+          <li>Contributed to organizing an NVIDIA-affiliated workshop for club members.</li>
+          <li>Taught Python data visualization to 10th-grade students at Sekolah Tarsisius 2.</li>
+          <li>Staffed the DSC booth during Week of Welcoming, helping register over 100 new freshmen as active members.</li>
+          <li>Served as Logistics Staff for Outventure, handling fundraising, venue sourcing, and on-site setup.</li>
+          <li>Took part in LDKCP, a 2-day, 1-night leadership training camp for club committee members.</li>
+        </ul>
+        <div class="chip-row"><span>Research</span><span>Teaching</span><span>Event Operations</span></div>
+      </div>
+    </article>
+
+    <h2 class="subhead">Achievements</h2>
+
+    <article class="achieve" id="ach-icoris" style="margin-top:24px">
+      <img src="images/certificate-icoris-2025.png" alt="ICORIS 2025 certificate of authorship" onerror="this.style.display='none'">
+      <h3>Enhanced Cervical Cancer Cell Detection Using CNN Transfer Learning with Strategic Layer Freezing</h3>
+      <p class="org">The 7th International Conference on Cybernetics and Intelligent Systems (ICORIS 2025)</p>
+      <p class="date">Sep 12-13, 2025 &middot; Universitas Bumigora, West Nusa Tenggara, Indonesia</p>
+      <p class="desc">Co-authored and presented this paper as part of a three-person research team under the guidance of our supervising lecturer. The paper applies CNN transfer learning with strategic layer freezing to improve cervical cancer cell detection, and was accepted and published in the ICORIS 2025 conference proceedings, hosted by IEEE Indonesia Section.</p>
+      <div class="chip-row"><span>Co-Author</span><span>CNN</span><span>Transfer Learning</span><span>Published Paper</span></div>
+    </article>
+
+         <article class="achieve" id="ach-ibcc">
+      <img src="images/certificate-ibcc-2025.jpg" alt="IBCC 2025 certificate of achievement" onerror="this.style.display='none'">
+      <h3>International Business Case Competition (IBCC) &mdash; Semifinalist</h3>
+      <p class="org">SXC International Summit 2025 &middot; Team "skibizness"</p>
+      <p class="date">Nov 23, 2025 &middot; Jakarta, Indonesia</p>
+      <p class="desc">Semifinalist in the International Business Case Competition under the theme "Bridging the Future: Leveraging Technology to Accelerate Business Innovation and Growth."</p>
+      <div class="chip-row"><span>Business Case</span><span>Team Competition</span><span>Semifinalist</span></div>
+    </article>
+
+  </div>
+</div>
+
+<div id="page-projects" data-title="Kelly's Portfolio | Projects" hidden>
+
+  <div class="page-head">
+    <div class="wrap">
+      <h1>Projects</h1>
+      <p>Research and applications, from CNN-based medical image detection to full-stack web apps.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+
+    <div class="small-grid">
+
+      <article class="small-card" id="proj-ispu">
+        <div class="media r-16x9" data-label="images/project-ispu-jakarta.png">
+          <img src="images/project-ispu-jakarta.png" alt="Jakarta ISPU forecasting" onerror="this.style.display='none'">
+        </div>
+        <h3>Jakarta Air Quality (ISPU) Forecasting</h3>
+        <p>Forecasts Jakarta's air quality index per monitoring station using lag/rolling pollutant features and an XGBoost regressor.</p>
+        <div class="chip-row"><span>Python</span><span>XGBoost</span><span>Time Series</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/ispu-jakarta-forecasting" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-cervical">
+        <div class="media r-16x9" data-label="images/project-cervical-cancer.jpg">
+          <img src="images/project-cervical-cancer.jpg" alt="Cervical cancer cell classification research" onerror="this.style.display='none'">
+        </div>
+        <h3>Cervical Cancer Cell Classification (ICORIS 2025)</h3>
+        <p>Research comparing four CNN architectures with strategic layer freezing for cervical cell classification on the SIPaKMeD dataset; the fine-tuned ResNet50V2 reached an F1-score of 0.915. Published at ICORIS 2025.</p>
+        <div class="chip-row"><span>Python</span><span>TensorFlow</span><span>CNN</span><span>Transfer Learning</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/cervical-cancer-cnn-classification" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-creditmlops">
+        <div class="media r-16x9" data-label="images/project-credit-mlops.jpg">
+          <img src="images/project-credit-mlops.jpg" alt="Credit score prediction MLOps" onerror="this.style.display='none'">
+        </div>
+        <h3>Credit Score Prediction (MLOps)</h3>
+        <p>Predicts a customer's credit score category with a scikit-learn/XGBoost pipeline tracked in MLflow, deployed through a local Streamlit dashboard and a cloud version served via an AWS SageMaker endpoint.</p>
+        <div class="chip-row"><span>Python</span><span>XGBoost</span><span>MLflow</span><span>AWS SageMaker</span><span>Streamlit</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/credit-score-prediction-mlops" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-placement">
+        <div class="media r-16x9" data-label="images/project-student-placement.jpg">
+          <img src="images/project-student-placement.jpg" alt="Student placement prediction" onerror="this.style.display='none'">
+        </div>
+        <h3>Student Placement Prediction</h3>
+        <p>Predicts whether a student will be placed in a job and estimates expected salary from academic and skills data, served through a FastAPI backend with a Streamlit dashboard.</p>
+        <div class="chip-row"><span>Python</span><span>scikit-learn</span><span>FastAPI</span><span>Streamlit</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/student-placement-prediction" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-clashofbang">
+        <div class="media r-16x9" data-label="images/project-clash-of-bang.jpg">
+          <img src="images/project-clash-of-bang.jpg" alt="Clash of BaNG landing page" onerror="this.style.display='none'">
+        </div>
+        <h3>Clash of BaNG Landing Page</h3>
+        <p>A landing page for a fantasy strategy game, featuring a multi-page site, filterable gallery, and a rotating hero carousel, designed in Figma before development.</p>
+        <div class="chip-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Figma</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/clash-of-bang-landing-page" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-disaster">
+        <div class="media r-16x9" data-label="images/project-disaster-classification.jpg">
+          <img src="images/project-disaster-classification.jpg" alt="Natural disaster image classification" onerror="this.style.display='none'">
+        </div>
+        <h3>Natural Disaster Image Classification</h3>
+        <p>CNN model classifying images into four natural disaster types: earthquake, urban fire, landslide, and water disaster, with a full EDA on image resolution, mode, and class balance.</p>
+        <div class="chip-row"><span>Python</span><span>TensorFlow</span><span>CNN</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/disaster-image-classification-cnn" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-stocklstm">
+        <div class="media r-16x9" data-label="images/project-stock-lstm.jpg">
+          <img src="images/project-stock-lstm.jpg" alt="Stock price forecasting with LSTM" onerror="this.style.display='none'">
+        </div>
+        <h3>Stock Price Forecasting with LSTM</h3>
+        <p>Forecasts daily closing prices for AMZN and CSCO stocks, comparing a baseline LSTM against a stacked architecture with dropout and learning-rate scheduling.</p>
+        <div class="chip-row"><span>Python</span><span>TensorFlow</span><span>LSTM</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/stock-price-forecasting-lstm" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-cropann">
+        <div class="media r-16x9" data-label="images/project-crop-yield-ann.jpg">
+          <img src="images/project-crop-yield-ann.jpg" alt="Crop yield prediction with ANN" onerror="this.style.display='none'">
+        </div>
+        <h3>Crop Yield Prediction with ANN</h3>
+        <p>Predicts crop yield from agricultural sensor data, comparing a baseline neural network against a modified architecture with Leaky ReLU, batch normalization, and target scaling.</p>
+        <div class="chip-row"><span>Python</span><span>TensorFlow</span><span>ANN</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/crop-yield-prediction-ann" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-rlc">
+        <div class="media r-16x9" data-label="images/project-rlc-rectifier.jpg">
+          <img src="images/project-rlc-rectifier.jpg" alt="RLC rectifier simulation" onerror="this.style.display='none'">
+        </div>
+        <h3>RLC Rectifier Circuit Simulation</h3>
+        <p>Numerically simulates an AC-to-DC rectifier circuit for a micro-hydro-powered LED setup using the RK4 method, comparing three filter configurations for signal stability and safety.</p>
+        <div class="chip-row"><span>Python</span><span>NumPy</span><span>Numerical Simulation</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/rlc-rectifier-microhydro-led-simulation" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-genetics">
+        <div class="media r-16x9" data-label="images/project-parental-genetics.jpg">
+          <img src="images/project-parental-genetics.jpg" alt="Parental genetics child health risk prediction" onerror="this.style.display='none'">
+        </div>
+        <h3>Parental Genetics Child Health Risk Prediction</h3>
+        <p>End-to-end ML project predicting a child's health risk level from parental genetic and physical data, deployed as a live API on AWS SageMaker with a Streamlit demo app.</p>
+        <div class="chip-row"><span>Python</span><span>XGBoost</span><span>AWS SageMaker</span><span>Streamlit</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/parental-genetics-child-health-risk-prediction" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-songrec">
+        <div class="media r-16x9" data-label="images/project-song-recommendation.jpg">
+          <img src="images/project-song-recommendation.jpg" alt="Song recommendation system" onerror="this.style.display='none'">
+        </div>
+        <h3>Song Recommendation System</h3>
+        <p>Content-based recommendation system that suggests similar songs based on artist and genre, using TF-IDF vectorization and cosine similarity.</p>
+        <div class="chip-row"><span>Python</span><span>scikit-learn</span><span>Recommendation System</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/song-recommendation-system" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-bdcrime">
+        <div class="media r-16x9" data-label="images/project-bangladesh-crime.jpg">
+          <img src="images/project-bangladesh-crime.jpg" alt="Bangladesh crime clustering" onerror="this.style.display='none'">
+        </div>
+        <h3>Bangladesh Crime Clustering</h3>
+        <p>Groups districts in Bangladesh into risk clusters based on crime and demographic patterns, using K-Means with elbow method and silhouette score for cluster selection, visualized with PCA.</p>
+        <div class="chip-row"><span>Python</span><span>K-Means</span><span>Clustering</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/bangladesh-crime-clustering" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-network">
+        <div class="media r-16x9" data-label="images/project-network-packet-tracer.jpg">
+          <img src="images/project-network-packet-tracer.jpg" alt="Computer network Packet Tracer project" onerror="this.style.display='none'">
+        </div>
+        <h3>Computer Network Design</h3>
+        <p>A network design and simulation covering device configuration, addressing, and connectivity, built in Cisco Packet Tracer.</p>
+        <div class="chip-row"><span>Networking</span><span>Cisco Packet Tracer</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/computer-network-packet-tracer" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-bayesian">
+        <div class="media r-16x9" data-label="images/project-bayesian-doctor-visits.jpg">
+          <img src="images/project-bayesian-doctor-visits.jpg" alt="Bayesian doctor visits analysis" onerror="this.style.display='none'">
+        </div>
+        <h3>Bayesian Analysis: Sleep Trouble in Elderly Patients</h3>
+        <p>Built three Bayesian logistic regression models on elderly healthcare survey data to identify factors behind sleep trouble, comparing them with DIC and WAIC.</p>
+        <div class="chip-row"><span>R</span><span>Bayesian Statistics</span><span>JAGS</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/bayesian-doctor-visits-analysis" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-gan">
+        <div class="media r-16x9" data-label="images/project-autoencoder-gan.jpg">
+          <img src="images/project-autoencoder-gan.jpg" alt="Autoencoder and GAN image generation" onerror="this.style.display='none'">
+        </div>
+        <h3>Image Reconstruction &amp; Generation: Autoencoder &amp; GAN</h3>
+        <p>Explored two generative deep learning approaches on a satellite image dataset of helicopters and ships: image reconstruction with autoencoders, and image generation with a Conditional GAN.</p>
+        <div class="chip-row"><span>Python</span><span>TensorFlow</span><span>Autoencoder</span><span>GAN</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/image-reconstruction-generation-autoencoder-gan" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="small-card" id="proj-corn">
+        <div class="media r-16x9" data-label="images/project-corn-leaf.jpg">
+          <img src="images/project-corn-leaf.jpg" alt="Corn leaf disease classification" onerror="this.style.display='none'">
+        </div>
+        <h3>Corn Leaf Disease Classification</h3>
+        <p>Classifies corn leaf images into four disease categories, progressing from a manually built AlexNet baseline to a fine-tuned MobileNetV2 transfer learning model.</p>
+        <div class="chip-row"><span>Python</span><span>TensorFlow</span><span>CNN</span><span>Transfer Learning</span></div>
+        <a class="link-btn" href="https://github.com/kelinatalia/corn-leaf-disease-classification" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+    </div>
+
+    <a class="more-link" href="https://github.com/kelinatalia" target="_blank" rel="noopener">See all repositories on GitHub</a>
+
+  </div>
+</div>
+
+<div id="page-certificates-skills" data-title="Kelly's Portfolio | Certificates &amp; Skills" hidden>
+
+  <div class="page-head">
+    <div class="wrap">
+      <h1>Certificates &amp; Skills</h1>
+      <p>Certifications and the technical toolkit I work with.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+
+        <h2 class="subhead" style="margin-top:48px">Certificates</h2>
+    <div class="cert-grid" style="margin-top:24px">
+      <div class="cert" id="cert-dl">
+        <div class="media contain r-4x3" data-label="images/cert-fundamentals-deep-learning.png">
+          <img src="images/cert-fundamentals-deep-learning.png" alt="NVIDIA Fundamentals of Deep Learning certificate" onerror="this.style.display='none'">
+        </div>
+        <h3>Fundamentals of Deep Learning</h3>
+        <p>NVIDIA Deep Learning Institute (DLI) &middot; Mar 2025</p>
+      </div>
+      <div class="cert" id="cert-llm">
+        <div class="media contain r-4x3" data-label="images/cert-llm-customization.png">
+          <img src="images/cert-llm-customization.png" alt="NVIDIA Efficient LLM Customization certificate" onerror="this.style.display='none'">
+        </div>
+        <h3>Efficient Large Language Model (LLM) Customization</h3>
+        <p>NVIDIA Deep Learning Institute (DLI) &middot; May 2025</p>
+      </div>
+      <div class="cert" id="cert-aws-ml">
+        <div class="media contain r-4x3" data-label="images/cert-aws-ml-foundations.png">
+          <img src="images/cert-aws-ml-foundations.png" alt="AWS Academy Machine Learning Foundations certificate" onerror="this.style.display='none'">
+        </div>
+        <h3>AWS Academy Machine Learning Foundations</h3>
+        <p>Amazon Web Services (AWS) &middot; Sep 2026</p>
+      </div>
+      <div class="cert" id="cert-react">
+        <div class="media contain r-4x3" data-label="images/cert-frontend-react.png">
+          <img src="images/cert-frontend-react.png" alt="HackerRank Frontend Developer React certificate" onerror="this.style.display='none'">
+        </div>
+        <h3>Frontend Developer (React)</h3>
+        <p>HackerRank &middot; Sep 2026</p>
+      </div>
+      <div class="cert" id="cert-sql-int">
+        <div class="media contain r-4x3" data-label="images/cert-sql-intermediate.png">
+          <img src="images/cert-sql-intermediate.png" alt="HackerRank SQL Intermediate certificate" onerror="this.style.display='none'">
+        </div>
+        <h3>SQL (Intermediate)</h3>
+        <p>HackerRank &middot; Sep 2026</p>
+      </div>
+      <div class="cert" id="cert-sql-adv">
+        <div class="media contain r-4x3" data-label="images/cert-sql-advanced.png">
+          <img src="images/cert-sql-advanced.png" alt="HackerRank SQL Advanced certificate" onerror="this.style.display='none'">
+        </div>
+        <h3>SQL (Advanced)</h3>
+        <p>HackerRank &middot; Sep 2026</p>
+      </div>
+    </div>
+
+        <h2 class="subhead">Skills</h2>
+
+    <div class="skill-group">
+      <h3>Programming Languages</h3>
+      <div class="skill-icons">
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/python" alt="Python" onerror="this.style.display='none'"></div><span>Python</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/r" alt="R" onerror="this.style.display='none'"></div><span>R</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" onerror="this.style.display='none'"></div><span>C#</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/cplusplus" alt="C++" onerror="this.style.display='none'"></div><span>C++</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/openjdk" alt="Java" onerror="this.style.display='none'"></div><span>Java</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" onerror="this.style.display='none'"></div><span>JavaScript</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/react" alt="ReactJS" onerror="this.style.display='none'"></div><span>ReactJS</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/html5" alt="HTML5" onerror="this.style.display='none'"></div><span>HTML5</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/css3.svg" alt="CSS3" onerror="this.style.display='none'"></div><span>CSS3</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/mysql" alt="SQL" onerror="this.style.display='none'"></div><span>SQL</span></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3>Libraries &amp; Frameworks</h3>
+      <div class="skill-icons">
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/pandas" alt="Pandas" onerror="this.style.display='none'"></div><span>Pandas</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/numpy" alt="NumPy" onerror="this.style.display='none'"></div><span>NumPy</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/scikitlearn" alt="Scikit-learn" onerror="this.style.display='none'"></div><span>Scikit-learn</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/tensorflow" alt="TensorFlow" onerror="this.style.display='none'"></div><span>TensorFlow</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/keras" alt="Keras" onerror="this.style.display='none'"></div><span>Keras</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/plotly" alt="Plotly" onerror="this.style.display='none'"></div><span>Plotly</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/fastapi" alt="FastAPI" onerror="this.style.display='none'"></div><span>FastAPI</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/streamlit" alt="Streamlit" onerror="this.style.display='none'"></div><span>Streamlit</span></div>
+       <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" onerror="this.style.display='none'"></div><span>Matplotlib</span></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3>Tools &amp; Platforms</h3>
+      <div class="skill-icons">
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/git" alt="Git" onerror="this.style.display='none'"></div><span>Git</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/github" alt="GitHub" onerror="this.style.display='none'"></div><span>GitHub</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" onerror="this.style.display='none'"></div><span>VS Code</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/jupyter" alt="Jupyter Notebook" onerror="this.style.display='none'"></div><span>Jupyter</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/googlecolab" alt="Google Colab" onerror="this.style.display='none'"></div><span>Colab</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/docker" alt="Docker" onerror="this.style.display='none'"></div><span>Docker</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/tableau.svg" alt="Tableau" onerror="this.style.display='none'"></div><span>Tableau</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.simpleicons.org/figma" alt="Figma" onerror="this.style.display='none'"></div><span>Figma</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Microsoft Azure" onerror="this.style.display='none'"></div><span>Azure</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/canva.svg" alt="Canva" onerror="this.style.display='none'"></div><span>Canva</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg" alt="SQL Server" onerror="this.style.display='none'"></div><span>SQL Server</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/googlesheets.svg" alt="Google Sheets" onerror="this.style.display='none'"></div><span>Google Sheets</span></div>
+        <div class="skill-icon"><div class="icon-box"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/rider.svg" alt="Rider" onerror="this.style.display='none'"></div><span>Rider</span></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3>Languages</h3>
+      <ul class="chips"><li>Indonesian (native)</li><li>English (C1 &middot; IELTS 7.0)</li><li>Mandarin (conversational)</li><li>Japanese (conversational)</li></ul>
+    </div>
+
+  </div>
+</div>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <h2>Find me @</h2>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/kelly-natalia-6447b5325" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="https://github.com/kelinatalia" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.921.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </a>
+      <a href="mailto:keliinataliaa@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+      </a>
+    </div>
+    <p class="mails"><a href="mailto:keliinataliaa@gmail.com">keliinataliaa@gmail.com</a> &nbsp;|&nbsp; <a href="mailto:kelly.natalia@binus.ac.id">kelly.natalia@binus.ac.id</a></p>
+    <p class="copy">&copy; 2026 Kelly Natalia</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
